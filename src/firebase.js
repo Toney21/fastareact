@@ -1,19 +1,26 @@
-import { initializeApp, getApps, getApp } from "firebase/app";
+import { getApp, getApps, initializeApp } from "firebase/app";
+import { getAuth } from "firebase/auth";
 import {
   getMessaging,
   getToken,
-  onMessage,
   isSupported,
+  onMessage,
 } from "firebase/messaging";
-import { getAuth } from "firebase/auth";
 const firebaseConfig = {
-  apiKey: "",
-  authDomain: "",
-  projectId: "",
-  storageBucket: "",
-  messagingSenderId: "",
-  appId: "",
-  measurementId: "",
+  apiKey: "AIzaSyDXJg4U_MOK-9LiwvWNAeGQvDSyWcZnhAU",
+
+  authDomain: "fasta-406607.firebaseapp.com",
+
+  projectId: "fasta-406607",
+
+  storageBucket: "fasta-406607.firebasestorage.app",
+
+  messagingSenderId: "983193418283",
+
+  appId: "1:983193418283:web:def92c2d3ae631b4efc86e",
+
+  measurementId: "G-4FSKS2SMYD"
+
 };
 const firebaseApp = !getApps().length
   ? initializeApp(firebaseConfig)
@@ -32,7 +39,7 @@ const messaging = (async () => {
 
 export const fetchToken = async (setTokenFound, setFcmToken) => {
   return getToken(await messaging, {
-    vapidKey: "",
+    vapidKey: "AClhfpTK6ssI6PUC9MNn8JDYApA5xylvDCRWPIvKUSw",
   })
     .then((currentToken) => {
       if (currentToken) {
