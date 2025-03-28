@@ -1,135 +1,141 @@
-// Colors
+// Updated Colors with Beige and Brown Palette
 
 const neutral = {
   100: "#FFFFFF",
-  200: "#E5E7EB",
-  300: "#F6F7FB",
-  400: "#9CA3AF",
-  500: "#6B7280",
-  600: "#4B5563",
-  700: "#374151",
-  800: "#1F2937",
-  900: "#111827",
-  1000: "#212E28",
-  1100: "#D6D6D6",
+  200: "#F5F5F0", // Light beige
+  300: "#F8F8F2", // Very light beige
+  400: "#B8AEA0", // Muted brown-beige
+  500: "#8B7D6B", // Medium brown
+  600: "#5D4B3E", // Dark brown
+  700: "#4A3C30", // Darker brown
+  800: "#352D22", // Almost chocolate
+  900: "#231F17", // Deep brown
+  1000: "#2E2720", // Warm dark brown
+  1100: "#D9D2C5", // Light beige-gray
 };
 
 const background = {
-  default: "#F9FAFC",
-  paper: "#FFFFFF",
-  custom: "#f1f2f5",
-  custom2: "#FFFFFF",
-  custom3: "#F6F7FB",
-  custom4: "#ffffff",
-  footer1: "#9f9f9f1a",
-  footer2: "#9f9f9f0d",
-  custom5: "#F4F6F8",
-  custom6: "#FCFCFD",
-  custom7: "#F6F6F6",
+  default: "#FAF9F5", // Off-white with beige tint
+  paper: "#FFFDF8", // Very light beige-white
+  custom: "#F4F1E9", // Light beige
+  custom2: "#FFFEFB", // Nearly white with beige hint
+  custom3: "#F9F7F0", // Soft beige
+  custom4: "#FFFDFA", // Warm white
+  footer1: "#9f9f9f1a", // Keep existing
+  footer2: "#9f9f9f0d", // Keep existing
+  custom5: "#F6F3EB", // Beige tint
+  custom6: "#FDFCF8", // Light beige-white
+  custom7: "#F5F2EA", // Soft beige
 };
 
-const divider = "#E6E8F0";
+const divider = "#D8D1C4"; // Beige-gray divider
 
 const primary = {
-  main: "#039D55",
-  deep: "#026034",
-  light: "#EBFDF2",
-  dark: "#1c6641",
-  semiLight: "#E4FFF3",
+  main: "#A67C52", // Warm brown
+  deep: "#7A5C3C", // Deep brown
+  light: "#F5EEE5", // Light beige
+  dark: "#6B4E32", // Dark brown
+  semiLight: "#EFE6DA", // Semi-light beige
   contrastText: "#FFFFFF",
-  customType1: "#0DCB72",
-  customType2: "#3BB77E",
-  customType3: "#29CE00",
+  customType1: "#B8916B", // Medium brown
+  customType2: "#9E7D5A", // Muted brown
+  customType3: "#8F6F4B", // Earthy brown
   overLay: "#000000",
-  lite: "rgba(3, 157, 85, 0.1)",
-  icon: "#039D55",
+  lite: "rgba(166, 124, 82, 0.1)", // Brown with opacity
+  icon: "#A67C52", // Brown for icons
 };
+
 const moduleTheme = {
-  pharmacy: "#039D55",
-  ecommerce: "#039D55",
-  food: "#039D55",
-  parcel: "#039D55",
+  pharmacy: "#A67C52", // Brown
+  ecommerce: "#A67C52",
+  food: "#A67C52",
+  parcel: "#A67C52",
 };
-const horizontalCardBG = "#E4FFF3";
+
+const horizontalCardBG = "#EFE6DA"; // Light beige
 
 const secondary = {
-  main: "#10B981",
-  light: "#3FC79A",
-  dark: "#0B815A",
+  main: "#B89F80", // Muted brown-beige
+  light: "#D4C4B0", // Light beige
+  dark: "#8A7255", // Medium brown
   contrastText: "#FFFFFF",
 };
 
 const success = {
-  main: "#14B8A6",
-  light: "#43C6B7",
-  dark: "#0E8074",
+  main: "#8F9779", // Muted green-brown
+  light: "#B8B8A3", // Light green-beige
+  dark: "#6B6D56", // Dark green-brown
   contrastText: "#FFFFFF",
 };
 
 const info = {
-  main: "#2196F3",
-  light: "#64B6F7",
-  dark: "#0B79D0",
-  lite: "#DBF5FF",
+  main: "#7D9EA8", // Muted blue-brown
+  light: "#B5C7CC", // Light blue-beige
+  dark: "#5C7A83", // Dark blue-brown
+  lite: "#E5EBED", // Very light blue-beige
   contrastText: "#FFFFFF",
   contrastText1: "#F5F6F8",
-  blue: "#0D6EFD",
-  custom1: "#31C0F5",
+  blue: "#6B8EA8", // Muted blue
+  custom1: "#7DA3B8", // Custom blue-brown
 };
 
 const warning = {
-  main: "#FFB020",
-  light: "#FFF8D5",
-  lite: "#FFBD8B",
+  main: "#D4A76A", // Golden brown
+  light: "#FAF3E5", // Light beige
+  lite: "#E8C9A0", // Light brown
   liter: "#FFF8F2",
-  dark: "#FE961C",
+  dark: "#C28F4F", // Dark golden brown
   contrastText: "#FFFFFF",
-  new: "#FFC817",
+  new: "#E6C27A", // New golden brown
 };
 
 const error = {
-  main: "#D14343",
-  light: "#DA6868",
-  dark: "#922E2E",
+  main: "#B85C4A", // Earthy red
+  light: "#D48C7E", // Light earthy red
+  dark: "#8C4235", // Dark earthy red
   contrastText: "#FFFFFF",
-  deepLight: "#FF725E",
+  deepLight: "#D48C7E", // Light earthy red
 };
 
 const text = {
-  primary: "#3E594D",
-  secondary: "#93A2AE",
-  disabled: "rgba(55, 65, 81, 0.48)",
-  custom: "#3F3F3F",
-  customText1: "#4B5563",
+  primary: "#4A3C30", // Dark brown
+  secondary: "#8B7D6B", // Medium brown
+  disabled: "rgba(74, 60, 48, 0.48)", // Brown with opacity
+  custom: "#3F3A35", // Dark muted brown
+  customText1: "#5D4B3E", // Dark brown
 };
 
 const footer = {
-  inputButton: "#BBFFDF",
-  inputButtonHover: "#6dcfa6",
-  bottom: "rgba(0, 98, 52, 0.3)",
+  inputButton: "#E8D9C5", // Light brown-beige
+  inputButtonHover: "#C7B8A5", // Medium beige
+  bottom: "rgba(122, 92, 60, 0.3)", // Brown with opacity
   foodBottom: "#686B78",
-  appDownloadButtonBg: "#1A1A1A",
-  appDownloadButtonBgGray: "#3E594D",
-  appDownloadButtonBgHover: "#4f4f4f",
+  appDownloadButtonBg: "#352D22", // Dark brown
+  appDownloadButtonBgGray: "#4A3C30", // Medium-dark brown
+  appDownloadButtonBgHover: "#5D4B3E", // Dark brown
   foodFooterBg: "#414141",
 };
+
 const customColor = {
-  textGray: "#9c9c9c",
-  textGrayDeep: "#787676",
-  buyButton: "#F9E091",
-  parcelWallet: "#8B3FFD",
+  textGray: "#9C948A", // Gray-beige
+  textGrayDeep: "#787169", // Muted brown-gray
+  buyButton: "#E6D4B5", // Golden beige
+  parcelWallet: "#8B6F4B", // Brown for parcel wallet
 };
+
 const whiteContainer = {
-  main: "#ffffff",
+  main: "#FFFDF8", // Warm white with beige tint
 };
+
 const pink = {
-  main: "#FF6D76",
+  main: "#D4A6A6", // Muted pink-brown
 };
-const foodCardColor = "#FFF6EF";
-const paperBoxShadow = "#E5EAF1";
-const roundStackOne = "rgba(255, 255, 255, 0.04)";
-const roundStackTwo = "rgba(255, 255, 255, 0.06)";
-const toolTipColor = neutral[1000];
+
+const foodCardColor = "#F8F1E8"; // Light beige
+const paperBoxShadow = "#E5DFD5"; // Beige-gray shadow
+const roundStackOne = "rgba(255, 253, 248, 0.04)"; // Warm white with opacity
+const roundStackTwo = "rgba(255, 253, 248, 0.06)"; // Warm white with opacity
+const toolTipColor = neutral[1000]; // Dark brown
 
 export const lightThemeOptions = {
   components: {
