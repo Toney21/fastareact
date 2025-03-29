@@ -1,167 +1,141 @@
-// Updated Colors with beige and orange palette
+// Updated Colors with Beige and Brown Palette
 
 const neutral = {
   100: "#FFFFFF",
-  200: "#E5E7EB",
-  300: "#F6F7FB",
-  400: "#9CA3AF",
-  500: "#6B7280",
-  600: "#4B5563",
-  700: "#374151",
-  800: "#1F2937",
-  900: "#111827",
-  1000: "#212E28",
-  1100: "#D6D6D6",
-};
-
-// Beige color palette additions
-const beige = {
-  100: "#FFFDF5",
-  200: "#FDF5E6",
-  300: "#FAEBD7",
-  400: "#F5DEB3",
-  500: "#E6D5B8",
-  600: "#D2B48C",
-  700: "#C19A6B",
-  800: "#B8860B",
-  900: "#CD853F",
-};
-
-// Orange color palette additions
-const orange = {
-  100: "#FFF8F2",
-  200: "#FFE8D6",
-  300: "#FFD4B3",
-  400: "#FFB885",
-  500: "#FFA057",
-  600: "#FF8C42",
-  700: "#FF7729",
-  800: "#E65C00",
-  900: "#CC5500",
+  200: "#F5F5F0", // Light beige
+  300: "#F8F8F2", // Very light beige
+  400: "#B8AEA0", // Muted brown-beige
+  500: "#8B7D6B", // Medium brown
+  600: "#5D4B3E", // Dark brown
+  700: "#4A3C30", // Darker brown
+  800: "#352D22", // Almost chocolate
+  900: "#231F17", // Deep brown
+  1000: "#2E2720", // Warm dark brown
+  1100: "#D9D2C5", // Light beige-gray
 };
 
 const background = {
-  default: beige[100], // Changed to light beige
-  paper: "#FFFFFF",
-  custom: beige[200],
-  custom2: "#FFFFFF",
-  custom3: beige[100],
-  custom4: "#ffffff",
-  footer1: "#9f9f9f1a",
-  footer2: "#9f9f9f0d",
-  custom5: beige[100],
-  custom6: "#FCFCFD",
-  custom7: beige[200],
+  default: "#FAF9F5", // Off-white with beige tint
+  paper: "#FFFDF8", // Very light beige-white
+  custom: "#F4F1E9", // Light beige
+  custom2: "#FFFEFB", // Nearly white with beige hint
+  custom3: "#F9F7F0", // Soft beige
+  custom4: "#FFFDFA", // Warm white
+  footer1: "#9f9f9f1a", // Keep existing
+  footer2: "#9f9f9f0d", // Keep existing
+  custom5: "#F6F3EB", // Beige tint
+  custom6: "#FDFCF8", // Light beige-white
+  custom7: "#F5F2EA", // Soft beige
 };
 
-const divider = "#E6E8F0";
+const divider = "#D8D1C4"; // Beige-gray divider
 
 const primary = {
-  main: orange[600], // Changed primary to orange
-  deep: orange[800],
-  light: orange[200],
-  dark: orange[800],
-  semiLight: orange[300],
+  main: "#A67C52", // Warm brown
+  deep: "#7A5C3C", // Deep brown
+  light: "#F5EEE5", // Light beige
+  dark: "#6B4E32", // Dark brown
+  semiLight: "#EFE6DA", // Semi-light beige
   contrastText: "#FFFFFF",
-  customType1: orange[500],
-  customType2: orange[400],
-  customType3: orange[700],
+  customType1: "#B8916B", // Medium brown
+  customType2: "#9E7D5A", // Muted brown
+  customType3: "#8F6F4B", // Earthy brown
   overLay: "#000000",
-  lite: "rgba(255, 140, 66, 0.1)", // Orange 600 with opacity
-  icon: orange[600],
+  lite: "rgba(166, 124, 82, 0.1)", // Brown with opacity
+  icon: "#A67C52", // Brown for icons
 };
 
 const moduleTheme = {
-  pharmacy: orange[600],
-  ecommerce: orange[600],
-  food: orange[600],
-  parcel: orange[600],
+  pharmacy: "#A67C52", // Brown
+  ecommerce: "#A67C52",
+  food: "#A67C52",
+  parcel: "#A67C52",
 };
 
-const horizontalCardBG = beige[300]; // Changed to beige
+const horizontalCardBG = "#EFE6DA"; // Light beige
 
 const secondary = {
-  main: beige[600], // Changed secondary to beige
-  light: beige[400],
-  dark: beige[800],
+  main: "#B89F80", // Muted brown-beige
+  light: "#D4C4B0", // Light beige
+  dark: "#8A7255", // Medium brown
   contrastText: "#FFFFFF",
 };
 
 const success = {
-  main: "#14B8A6",
-  light: "#43C6B7",
-  dark: "#0E8074",
+  main: "#8F9779", // Muted green-brown
+  light: "#B8B8A3", // Light green-beige
+  dark: "#6B6D56", // Dark green-brown
   contrastText: "#FFFFFF",
 };
 
 const info = {
-  main: "#2196F3",
-  light: "#64B6F7",
-  dark: "#0B79D0",
-  lite: "#DBF5FF",
+  main: "#7D9EA8", // Muted blue-brown
+  light: "#B5C7CC", // Light blue-beige
+  dark: "#5C7A83", // Dark blue-brown
+  lite: "#E5EBED", // Very light blue-beige
   contrastText: "#FFFFFF",
   contrastText1: "#F5F6F8",
-  blue: "#0D6EFD",
-  custom1: "#31C0F5",
+  blue: "#6B8EA8", // Muted blue
+  custom1: "#7DA3B8", // Custom blue-brown
 };
 
 const warning = {
-  main: orange[600], // Changed warning to orange
-  light: orange[200],
-  lite: orange[400],
-  liter: orange[100],
-  dark: orange[800],
+  main: "#D4A76A", // Golden brown
+  light: "#FAF3E5", // Light beige
+  lite: "#E8C9A0", // Light brown
+  liter: "#FFF8F2",
+  dark: "#C28F4F", // Dark golden brown
   contrastText: "#FFFFFF",
-  new: orange[500],
+  new: "#E6C27A", // New golden brown
 };
 
 const error = {
-  main: "#D14343",
-  light: "#DA6868",
-  dark: "#922E2E",
+  main: "#B85C4A", // Earthy red
+  light: "#D48C7E", // Light earthy red
+  dark: "#8C4235", // Dark earthy red
   contrastText: "#FFFFFF",
-  deepLight: "#FF725E",
+  deepLight: "#D48C7E", // Light earthy red
 };
 
 const text = {
-  primary: "#3E594D",
-  secondary: "#93A2AE",
-  disabled: "rgba(55, 65, 81, 0.48)",
-  custom: "#3F3F3F",
-  customText1: "#4B5563",
+  primary: "#4A3C30", // Dark brown
+  secondary: "#8B7D6B", // Medium brown
+  disabled: "rgba(74, 60, 48, 0.48)", // Brown with opacity
+  custom: "#3F3A35", // Dark muted brown
+  customText1: "#5D4B3E", // Dark brown
 };
 
 const footer = {
-  inputButton: beige[400], // Changed to beige
-  inputButtonHover: beige[600],
-  bottom: "rgba(230, 165, 0, 0.3)", // Orange-based
+  inputButton: "#E8D9C5", // Light brown-beige
+  inputButtonHover: "#C7B8A5", // Medium beige
+  bottom: "rgba(122, 92, 60, 0.3)", // Brown with opacity
   foodBottom: "#686B78",
-  appDownloadButtonBg: "#1A1A1A",
-  appDownloadButtonBgGray: "#3E594D",
-  appDownloadButtonBgHover: "#4f4f4f",
+  appDownloadButtonBg: "#352D22", // Dark brown
+  appDownloadButtonBgGray: "#4A3C30", // Medium-dark brown
+  appDownloadButtonBgHover: "#5D4B3E", // Dark brown
   foodFooterBg: "#414141",
 };
 
 const customColor = {
-  textGray: "#9c9c9c",
-  textGrayDeep: "#787676",
-  buyButton: beige[400], // Changed to beige
-  parcelWallet: "#8B3FFD",
+  textGray: "#9C948A", // Gray-beige
+  textGrayDeep: "#787169", // Muted brown-gray
+  buyButton: "#E6D4B5", // Golden beige
+  parcelWallet: "#8B6F4B", // Brown for parcel wallet
 };
 
 const whiteContainer = {
-  main: "#ffffff",
+  main: "#FFFDF8", // Warm white with beige tint
 };
 
 const pink = {
-  main: "#FF6D76",
+  main: "#D4A6A6", // Muted pink-brown
 };
 
-const foodCardColor = beige[100]; // Changed to beige
-const paperBoxShadow = "#E5EAF1";
-const roundStackOne = "rgba(255, 255, 255, 0.04)";
-const roundStackTwo = "rgba(255, 255, 255, 0.06)";
-const toolTipColor = neutral[1000];
+const foodCardColor = "#F8F1E8"; // Light beige
+const paperBoxShadow = "#E5DFD5"; // Beige-gray shadow
+const roundStackOne = "rgba(255, 253, 248, 0.04)"; // Warm white with opacity
+const roundStackTwo = "rgba(255, 253, 248, 0.06)"; // Warm white with opacity
+const toolTipColor = neutral[1000]; // Dark brown
 
 export const lightThemeOptions = {
   components: {
@@ -207,7 +181,7 @@ export const lightThemeOptions = {
         },
         input: {
           "&:-webkit-autofill": {
-            "-webkit-box-shadow": `0 0 0 100px ${beige[100]} inset`, // Changed to beige
+            "-webkit-box-shadow": "0 0 0 100px #f0f5f5 inset",
             "-webkit-text-fill-color": "#000",
           },
         },
@@ -276,8 +250,6 @@ export const lightThemeOptions = {
     info,
     mode: "light",
     neutral,
-    beige, // Added beige palette
-    orange, // Added orange palette
     primary,
     secondary,
     success,
